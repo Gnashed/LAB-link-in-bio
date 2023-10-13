@@ -1,3 +1,45 @@
-body {
-    background-color: crimson;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+}
+
+.selfie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.selfie img {
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    /* color: white; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.socials svg {
+    padding-right: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
 }
